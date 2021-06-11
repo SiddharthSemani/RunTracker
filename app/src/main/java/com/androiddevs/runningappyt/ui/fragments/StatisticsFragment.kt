@@ -91,7 +91,7 @@ class StatisticsFragment : Fragment(R.layout.fragment_statistics) {
                     color = ContextCompat.getColor(requireContext(), R.color.colorAccent)
                 }
                 barChart.data = BarData(bardataSet)
-                barChart.marker = CustomMarkerView(it.reversed(), requireContext(), R.layout.marker_view)
+                barChart.marker = CustomMarkerView(it, requireContext(), R.layout.marker_view)
                 barChart.invalidate()
             }
         })
