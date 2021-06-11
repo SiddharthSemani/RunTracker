@@ -11,7 +11,7 @@
 
     <fragment
         android:id="@+id/runFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.RunFragment"
+        android:name="com.androiddevs.run_tracker.ui.fragments.RunFragment"
         android:label="RunFragment">
         <action
             android:id="@+id/action_runFragment_to_trackingFragment"
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/setupFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.SetupFragment"
+        android:name="com.androiddevs.run_tracker.ui.fragments.SetupFragment"
         android:label="SetupFragment">
         <action
             android:id="@+id/action_setupFragment_to_runFragment"
@@ -27,11 +27,11 @@
     </fragment>
     <fragment
         android:id="@+id/statisticsFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.StatisticsFragment"
+        android:name="com.androiddevs.run_tracker.ui.fragments.StatisticsFragment"
         android:label="StatisticsFragment" />
     <fragment
         android:id="@+id/trackingFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.TrackingFragment"
+        android:name="com.androiddevs.run_tracker.ui.fragments.TrackingFragment"
         android:label="TrackingFragment">
         <action
             android:id="@+id/action_trackingFragment_to_runFragment"
@@ -39,6 +39,6 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.SettingsFragment"
+        android:name="com.androiddevs.run_tracker.ui.fragments.SettingsFragment"
         android:label="SettingsFragment" />
 </navigation>
